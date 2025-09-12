@@ -1,9 +1,17 @@
 @model Student
 
 <div>
-    <form asp-action="Create" method="post" class="mt-3">
+    <form asp-action="Create" method="post" enctype="multipart/form-data" class="mt-3">
 
-        <!-- Name -->
+        @* Upload Avatar *@
+        <div class="form-group row" style="margin-top:7px">
+            <label asp-for="Avatar" class="col-sm-2 col-form-label"></label>
+            <div class="col-sm-10">
+                <input asp-for="Avatar" type="file" class="form-control" />
+            </div>
+        </div>
+
+        @* Name *@
         <div class="form-group row" style="margin-top:7px">
             <label asp-for="Name" class="col-sm-2 col-form-label"></label>
             <div class="col-sm-10">
@@ -11,7 +19,7 @@
             </div>
         </div>
 
-        <!-- Email -->
+        @* Email *@
         <div class="form-group row" style="margin-top:7px">
             <label asp-for="Email" class="col-sm-2 col-form-label"></label>
             <div class="col-sm-10">
@@ -19,7 +27,7 @@
             </div>
         </div>
 
-        <!-- Password -->
+        @* Password *@
         <div class="form-group row" style="margin-top:7px">
             <label asp-for="Password" class="col-sm-2 col-form-label"></label>
             <div class="col-sm-10">
@@ -27,7 +35,7 @@
             </div>
         </div>
 
-        <!-- Branch -->
+        @* Branch *@
         <div class="form-group row" style="margin-top:7px">
             <label asp-for="Branch" class="col-sm-2 col-form-label"></label>
             <div class="col-sm-10">
@@ -37,7 +45,7 @@
             </div>
         </div>
 
-        <!-- IsRegular -->
+        @* IsRegular *@
         <div class="form-group row" style="margin-top:7px">
             <label asp-for="IsRegular" class="col-sm-2 col-form-label"></label>
             <div class="col-sm-10">
@@ -45,7 +53,7 @@
             </div>
         </div>
 
-        <!-- DateOfBirth -->
+        @* DateOfBirth *@
         <div class="form-group row" style="margin-top:7px">
             <label asp-for="DateOfBirth" class="col-sm-2 col-form-label"></label>
             <div class="col-sm-10">
@@ -53,7 +61,7 @@
             </div>
         </div>
 
-        <!-- Gender -->
+        @* Gender *@
         <div class="form-group row" style="margin-top:7px">
             <label asp-for="Gender" class="col-sm-2 col-form-label"></label>
             <div class="col-sm-10">
@@ -67,7 +75,7 @@
             </div>
         </div>
 
-        <!-- Address -->
+        @* Address *@
         <div class="form-group row" style="margin-top:7px">
             <label asp-for="Address" class="col-sm-2 col-form-label"></label>
             <div class="col-sm-10">
@@ -75,7 +83,7 @@
             </div>
         </div>
 
-        <!-- Submit -->
+        @* Submit *@
         <div class="form-group row" style="margin-top:10px">
             <div class="col-sm-10">
                 <button type="submit" class="btn btn-primary">Create</button>
