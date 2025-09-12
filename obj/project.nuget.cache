@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IWCwPwKdptk=",
+  "dgSpecHash": "pA5oWI7NBoE=",
   "success": true,
-  "projectFilePath": "/Users/user/MyAspNetCoreApp/MyWebApp/MyWebApp.csproj",
+  "projectFilePath": "/Users/user/Workspace/AspNet/Lab1/MyWebApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

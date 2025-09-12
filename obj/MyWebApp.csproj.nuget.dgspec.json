@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/user/MyAspNetCoreApp/MyWebApp/MyWebApp.csproj": {}
+    "/Users/user/Workspace/AspNet/Lab1/MyWebApp.csproj": {}
   },
   "projects": {
-    "/Users/user/MyAspNetCoreApp/MyWebApp/MyWebApp.csproj": {
+    "/Users/user/Workspace/AspNet/Lab1/MyWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/user/MyAspNetCoreApp/MyWebApp/MyWebApp.csproj",
+        "projectUniqueName": "/Users/user/Workspace/AspNet/Lab1/MyWebApp.csproj",
         "projectName": "MyWebApp",
-        "projectPath": "/Users/user/MyAspNetCoreApp/MyWebApp/MyWebApp.csproj",
+        "projectPath": "/Users/user/Workspace/AspNet/Lab1/MyWebApp.csproj",
         "packagesPath": "/Users/user/.nuget/packages/",
-        "outputPath": "/Users/user/MyAspNetCoreApp/MyWebApp/obj/",
+        "outputPath": "/Users/user/Workspace/AspNet/Lab1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/user/.nuget/NuGet/NuGet.Config"
