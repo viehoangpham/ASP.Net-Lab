@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5SoCQB0eFpq2c5veVXWCg8GpLLSq2aLz19bZCBr+NLA=",
+  "Hash": "TUQ6cnKmeUg6AzPBbPW6voLWdFIWRw3URxQCt/dLjr0=",
   "Source": "MyWebApp",
   "BasePath": "_content/MyWebApp",
   "Mode": "Default",
@@ -1193,6 +1193,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Identity": "/Users/user/Workspace/AspNet/Lab1/wwwroot/uploads/9c1eab1ec014ad6ec9c84a4ddaac6739.jpeg",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/user/Workspace/AspNet/Lab1/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "uploads/9c1eab1ec014ad6ec9c84a4ddaac6739.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/9c1eab1ec014ad6ec9c84a4ddaac6739.jpeg"
     }
   ]
 }
