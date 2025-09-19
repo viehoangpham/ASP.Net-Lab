@@ -4,6 +4,7 @@ using MyWebApp.Models;
 
 namespace MyWebApp.Controllers
 {
+  [Route("Admin/Student")]
   public class StudentController : Controller
   {
     private List<Student> listStudents = new List<Student>();
@@ -18,11 +19,13 @@ namespace MyWebApp.Controllers
       };
     }
 
+    [Route("List")]
     public IActionResult Index()
     {
       return View(listStudents);
     }
 
+    [Route("Add")]
     [HttpGet]
     public IActionResult Create()
     {
@@ -37,6 +40,7 @@ namespace MyWebApp.Controllers
       return View();
     }
 
+    [Route("Add")]
     [HttpPost]
     public IActionResult Create(Student s, IFormFile avatar)
     {
