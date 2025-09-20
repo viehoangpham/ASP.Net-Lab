@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "ZoXvRKiOeLrrYgvo+kMsePgudFFSZHsujrd795B36+Q=",
+=======
+  "Hash": "5UMxdq0XaeHbHVbfWluLiMlP8Y3jYa6iQCcBgp2MXQE=",
+>>>>>>> 82477d39c1fdd14bd15b87d7dd27f97a4b0eb576
   "Source": "MyWebApp",
   "BasePath": "_content/MyWebApp",
   "Mode": "Default",
@@ -113,6 +117,7 @@
     },
     {
       "Identity": "/Users/user/Workspace/AspNet/Lab/wwwroot/js/scripts.js",
+<<<<<<< HEAD
       "SourceId": "MyWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/user/Workspace/AspNet/Lab/wwwroot/",
@@ -135,6 +140,30 @@
       "SourceId": "MyWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/user/Workspace/AspNet/Lab/wwwroot/",
+=======
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/user/Workspace/AspNet/Lab/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "js/scripts.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/scripts.js"
+    },
+    {
+      "Identity": "/Users/user/Workspace/AspNet/Lab/wwwroot/js/site.js",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/user/Workspace/AspNet/Lab/wwwroot/",
+>>>>>>> 82477d39c1fdd14bd15b87d7dd27f97a4b0eb576
       "BasePath": "_content/MyWebApp",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1233,6 +1262,28 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
     },
     {
+<<<<<<< HEAD
+=======
+      "Identity": "/Users/user/Workspace/AspNet/Lab/wwwroot/uploads/508386961_1244731640778672_5552051962342873797_n.jpg",
+      "SourceId": "MyWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/user/Workspace/AspNet/Lab/wwwroot/",
+      "BasePath": "_content/MyWebApp",
+      "RelativePath": "uploads/508386961_1244731640778672_5552051962342873797_n.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/uploads/508386961_1244731640778672_5552051962342873797_n.jpg"
+    },
+    {
+>>>>>>> 82477d39c1fdd14bd15b87d7dd27f97a4b0eb576
       "Identity": "/Users/user/Workspace/AspNet/Lab/wwwroot/uploads/9c1eab1ec014ad6ec9c84a4ddaac6739.jpeg",
       "SourceId": "MyWebApp",
       "SourceType": "Discovered",

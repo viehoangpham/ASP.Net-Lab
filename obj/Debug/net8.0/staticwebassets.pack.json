@@ -253,6 +253,13 @@
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
+<<<<<<< HEAD
+=======
+      "Id": "/Users/user/Workspace/AspNet/Lab/wwwroot/uploads/508386961_1244731640778672_5552051962342873797_n.jpg",
+      "PackagePath": "staticwebassets/uploads/508386961_1244731640778672_5552051962342873797_n.jpg"
+    },
+    {
+>>>>>>> 82477d39c1fdd14bd15b87d7dd27f97a4b0eb576
       "Id": "/Users/user/Workspace/AspNet/Lab/wwwroot/uploads/9c1eab1ec014ad6ec9c84a4ddaac6739.jpeg",
       "PackagePath": "staticwebassets/uploads/9c1eab1ec014ad6ec9c84a4ddaac6739.jpeg"
     },
